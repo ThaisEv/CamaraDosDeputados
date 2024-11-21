@@ -10,7 +10,7 @@ import { DeputadoServiceService } from '../model/deputado-service.service';
 })
 export class BuscarDeputadoComponent {
   formBusca: FormGroup;
-  deputado: Deputado | undefined;
+  // deputados: Deputado[] = [];
 
   constructor(private ds: DeputadoServiceService, private fb: FormBuilder) {
     this.formBusca = this.fb.group({
@@ -21,11 +21,6 @@ export class BuscarDeputadoComponent {
 
   buscar() {
     const nome = this.formBusca.value.nome;
-    this.ds.buscarDeputadoPorTitulo(nome).subscribe(
-      res => {
-        this.deputado = res.dados;
-      }
-    );
-    console.log(this.deputado);
+    this.ds.buscar(nome);
   }
 }

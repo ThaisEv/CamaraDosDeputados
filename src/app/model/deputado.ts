@@ -1,9 +1,9 @@
 export class Deputado {
-    nome: string = '';
-    partido: string = '';
-    estado: string = '';
     email: string = '';
-    foto: string = '';
+    nome: string = '';
+    siglaUf: string = '';
+    siglaPartido: string = '';
+    urlFoto: string = '';
 
     constructor () {
         

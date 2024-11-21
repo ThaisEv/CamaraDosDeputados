@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DeputadoServiceService } from '../model/deputado-service.service';
 
 @Component({
   selector: 'app-mostrar-deputado',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class MostrarDeputadoComponent {
   
+    constructor(public df: DeputadoServiceService) {}
 }
