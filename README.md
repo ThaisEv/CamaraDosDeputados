@@ -1,6 +1,6 @@
 #Obs:
 
-<b>Duplas:</b> Danilo da Silva e Thais Evelin (INFO-4AM)
+<b>Duplas:</b> Danilo da Silva e Thais Evelin (INFO-4AM)</br>
 <b>Feito com Bootstrap.</b>
 
 # Codigos
