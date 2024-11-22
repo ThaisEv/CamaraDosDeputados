@@ -1,3 +1,8 @@
+#Obs:
+
+<b>Duplas:</b> Danilo da Silva e Thais Evelin (INFO-4AM)
+<b>Feito com Bootstrap.</b>
+
 # Codigos
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
